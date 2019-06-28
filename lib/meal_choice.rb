@@ -1,2 +1,5 @@
-def meal_choice (veg1,veg2,protein)# Your code here
-puts what a nutrious meal.puts a plate of #{protein}#{veg1}#{veg2}so that you can see what you ordered end
+def meal_choice (protein, veg1,veg2)
+     puts "what a nutrious meal."
+     puts "a plate of #{protein}, with #{veg1}, + #{veg2} so that you can also see what you ordered."
+     end
+meal_choice ("meat"),("broccoli"),("macaroni")
